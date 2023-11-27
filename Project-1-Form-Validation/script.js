@@ -28,9 +28,8 @@ const checkEmail = (input) => {
     }
 };
 
-const getFieldName = (input) => {
-    return input.id.charAt(0).toUpperCase() + input.id.slice(1);
-}
+const getFieldName = input => input.id.charAt(0).toUpperCase() + input.id.slice(1);
+
 
 const checkRequired = (inputArr)=>{
     inputArr.forEach(input => {
